@@ -1,0 +1,531 @@
+{"level":"info","time":"2025-05-12T18:04:06.858+0800","caller":"core/init.go:38","msg":"db connector successfully"}
+{"level":"info","time":"2025-05-12T18:04:06.859+0800","caller":"database/mysql.go:86","msg":"开始执行数据库迁移..."}
+{"level":"info","time":"2025-05-12T18:04:07.365+0800","caller":"database/mysql.go:86","msg":"数据库迁移完成"}
+{"level":"info","time":"2025-05-12T18:04:07.365+0800","caller":"database/migration.go:30","msg":"检查并初始化角色..."}
+{"level":"info","time":"2025-05-12T18:04:07.369+0800","caller":"database/migration.go:35","msg":"检查并初始化管理员账户..."}
+{"level":"info","time":"2025-05-12T18:04:07.398+0800","caller":"cache/cache.go:35","msg":"Redis缓存连接成功","host":"10.0.0.107","port":6379,"db":0}
+{"level":"info","time":"2025-05-12T18:04:07.398+0800","caller":"core/init.go:43","msg":"缓存系统初始化成功","type":"redis"}
+{"level":"info","time":"2025-05-12T18:04:07.398+0800","caller":"runtime/asm_arm64.s:1223","msg":"server is start....[http://localhost:8080]"}
+{"level":"info","time":"2025-05-12T18:04:43.425+0800","caller":"core/init.go:98","msg":"server close..."}
+{"level":"info","time":"2025-05-12T18:04:43.425+0800","caller":"core/init.go:114","msg":"db connector is close"}
+{"level":"info","time":"2025-05-12T18:04:43.425+0800","caller":"core/init.go:98","msg":"server closed"}
+{"level":"info","time":"2025-05-12T20:45:05.480+0800","caller":"core/init.go:38","msg":"db connector successfully"}
+{"level":"info","time":"2025-05-12T20:45:05.481+0800","caller":"database/mysql.go:86","msg":"开始执行数据库迁移..."}
+{"level":"info","time":"2025-05-12T20:45:05.544+0800","caller":"database/mysql.go:86","msg":"数据库迁移完成"}
+{"level":"info","time":"2025-05-12T20:45:05.544+0800","caller":"database/migration.go:25","msg":"检查并初始化角色..."}
+{"level":"info","time":"2025-05-12T20:45:05.548+0800","caller":"database/migration.go:25","msg":"创建默认角色..."}
+{"level":"info","time":"2025-05-12T20:45:05.564+0800","caller":"database/migration.go:25","msg":"默认角色创建成功"}
+{"level":"info","time":"2025-05-12T20:45:05.564+0800","caller":"database/migration.go:28","msg":"检查并初始化管理员账户..."}
+{"level":"info","time":"2025-05-12T20:45:05.571+0800","caller":"database/migration.go:28","msg":"创建默认管理员账户..."}
+{"level":"info","time":"2025-05-12T20:45:05.647+0800","caller":"database/migration.go:28","msg":"默认管理员账户创建成功"}
+{"level":"info","time":"2025-05-12T20:45:05.660+0800","caller":"cache/cache.go:35","msg":"Redis缓存连接成功","host":"10.0.0.107","port":6379,"db":0}
+{"level":"info","time":"2025-05-12T20:45:05.660+0800","caller":"core/init.go:43","msg":"缓存系统初始化成功","type":"redis"}
+{"level":"info","time":"2025-05-12T20:45:05.660+0800","caller":"runtime/asm_arm64.s:1223","msg":"server is start....[http://localhost:8080]"}
+{"level":"info","time":"2025-05-12T20:45:42.516+0800","caller":"core/init.go:98","msg":"server close..."}
+{"level":"info","time":"2025-05-12T20:45:42.516+0800","caller":"core/init.go:114","msg":"db connector is close"}
+{"level":"info","time":"2025-05-12T20:45:42.516+0800","caller":"core/init.go:98","msg":"server closed"}
+{"level":"info","time":"2025-05-12T20:50:24.908+0800","caller":"core/init.go:38","msg":"db connector successfully"}
+{"level":"info","time":"2025-05-12T20:50:24.908+0800","caller":"database/mysql.go:86","msg":"开始执行数据库迁移..."}
+{"level":"info","time":"2025-05-12T20:50:24.976+0800","caller":"database/mysql.go:86","msg":"数据库迁移完成"}
+{"level":"info","time":"2025-05-12T20:50:24.976+0800","caller":"database/migration.go:25","msg":"检查并初始化角色..."}
+{"level":"info","time":"2025-05-12T20:50:24.980+0800","caller":"database/migration.go:25","msg":"创建默认角色..."}
+{"level":"info","time":"2025-05-12T20:50:24.995+0800","caller":"database/migration.go:25","msg":"默认角色创建成功"}
+{"level":"info","time":"2025-05-12T20:50:24.995+0800","caller":"database/migration.go:28","msg":"检查并初始化管理员账户..."}
+{"level":"info","time":"2025-05-12T20:50:25.002+0800","caller":"database/migration.go:28","msg":"创建默认管理员账户..."}
+{"level":"info","time":"2025-05-12T20:50:25.080+0800","caller":"database/migration.go:28","msg":"默认管理员账户创建成功"}
+{"level":"info","time":"2025-05-12T20:50:25.092+0800","caller":"cache/cache.go:35","msg":"Redis缓存连接成功","host":"10.0.0.107","port":6379,"db":0}
+{"level":"info","time":"2025-05-12T20:50:25.092+0800","caller":"core/init.go:43","msg":"缓存系统初始化成功","type":"redis"}
+{"level":"info","time":"2025-05-12T20:50:25.093+0800","caller":"runtime/asm_arm64.s:1223","msg":"server is start....[http://localhost:8080]"}
+{"level":"info","time":"2025-05-12T21:02:03.090+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":404,"方法":"GET","路径":"/","耗时":0}
+{"level":"info","time":"2025-05-12T21:03:03.447+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":404,"方法":"GET","路径":"/","耗时":0}
+{"level":"info","time":"2025-05-12T21:05:44.624+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":404,"方法":"GET","路径":"/","耗时":0}
+{"level":"info","time":"2025-05-12T21:05:45.985+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":404,"方法":"GET","路径":"/","耗时":0}
+{"level":"info","time":"2025-05-12T21:05:46.321+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":404,"方法":"GET","路径":"/","耗时":0}
+{"level":"info","time":"2025-05-12T21:06:35.460+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":404,"方法":"GET","路径":"/app/v1","耗时":0}
+{"level":"info","time":"2025-05-12T21:06:37.196+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":404,"方法":"GET","路径":"/app/v1","耗时":0}
+{"level":"info","time":"2025-05-12T21:07:15.539+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":404,"方法":"GET","路径":"/app/v1/auth","耗时":0}
+{"level":"info","time":"2025-05-12T21:07:16.599+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":404,"方法":"GET","路径":"/app/v1/auth","耗时":0}
+{"level":"info","time":"2025-05-12T21:07:17.096+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":404,"方法":"GET","路径":"/app/v1/auth","耗时":0}
+{"level":"info","time":"2025-05-12T21:07:17.514+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":404,"方法":"GET","路径":"/app/v1/auth","耗时":0}
+{"level":"info","time":"2025-05-12T21:07:25.644+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":404,"方法":"GET","路径":"/app/v1/auth/register","耗时":0}
+{"level":"info","time":"2025-05-12T21:07:30.249+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":404,"方法":"POST","路径":"/app/v1/auth/register","耗时":0}
+{"level":"info","time":"2025-05-12T21:07:31.752+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":404,"方法":"POST","路径":"/app/v1/auth/register","耗时":0}
+{"level":"info","time":"2025-05-12T21:07:36.274+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":404,"方法":"POST","路径":"/app/v1/auth/register","耗时":0}
+{"level":"info","time":"2025-05-12T21:07:37.374+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":404,"方法":"POST","路径":"/app/v1/auth/register","耗时":0}
+{"level":"info","time":"2025-05-12T21:07:48.301+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":404,"方法":"POST","路径":"/app/v1/auth/register","耗时":0}
+{"level":"info","time":"2025-05-12T21:07:49.995+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":404,"方法":"POST","路径":"/app/v1/auth/register","耗时":0}
+{"level":"info","time":"2025-05-12T21:08:08.749+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":404,"方法":"POST","路径":"/app/v1/auth/register","耗时":0}
+{"level":"info","time":"2025-05-12T21:08:09.719+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":404,"方法":"POST","路径":"/app/v1/auth/register","耗时":0}
+{"level":"info","time":"2025-05-12T21:08:10.529+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":404,"方法":"POST","路径":"/app/v1/auth/register","耗时":0}
+{"level":"info","time":"2025-05-12T21:09:04.652+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":404,"方法":"POST","路径":"/app/v1/auth/register","耗时":0}
+{"level":"info","time":"2025-05-12T21:09:05.831+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":404,"方法":"POST","路径":"/app/v1/auth/register","耗时":0}
+{"level":"info","time":"2025-05-12T21:09:06.349+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":404,"方法":"POST","路径":"/app/v1/auth/register","耗时":0}
+{"level":"info","time":"2025-05-12T21:10:26.596+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":404,"方法":"POST","路径":"/app/v1/auth/register","耗时":0}
+{"level":"info","time":"2025-05-12T21:10:28.037+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":404,"方法":"POST","路径":"/app/v1/auth/register","耗时":0}
+{"level":"info","time":"2025-05-12T21:10:28.693+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":404,"方法":"POST","路径":"/app/v1/auth/register","耗时":0}
+{"level":"info","time":"2025-05-12T21:10:29.348+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":404,"方法":"POST","路径":"/app/v1/auth/register","耗时":0}
+{"level":"info","time":"2025-05-12T21:12:03.029+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":404,"方法":"POST","路径":"/app/v1/auth/register","耗时":0}
+{"level":"info","time":"2025-05-12T21:12:04.439+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":404,"方法":"POST","路径":"/app/v1/auth/register","耗时":0}
+{"level":"info","time":"2025-05-12T21:12:38.481+0800","caller":"core/init.go:98","msg":"server close..."}
+{"level":"info","time":"2025-05-12T21:12:38.481+0800","caller":"core/init.go:114","msg":"db connector is close"}
+{"level":"info","time":"2025-05-12T21:12:38.481+0800","caller":"core/init.go:98","msg":"server closed"}
+{"level":"info","time":"2025-05-12T21:16:17.166+0800","caller":"core/init.go:38","msg":"db connector successfully"}
+{"level":"info","time":"2025-05-12T21:16:17.167+0800","caller":"database/mysql.go:86","msg":"开始执行数据库迁移..."}
+{"level":"info","time":"2025-05-12T21:16:17.584+0800","caller":"database/mysql.go:86","msg":"数据库迁移完成"}
+{"level":"info","time":"2025-05-12T21:16:17.584+0800","caller":"database/migration.go:25","msg":"检查并初始化角色..."}
+{"level":"info","time":"2025-05-12T21:16:17.590+0800","caller":"database/migration.go:28","msg":"检查并初始化管理员账户..."}
+{"level":"info","time":"2025-05-12T21:16:17.707+0800","caller":"cache/cache.go:35","msg":"Redis缓存连接成功","host":"10.0.0.107","port":6379,"db":0}
+{"level":"info","time":"2025-05-12T21:16:17.707+0800","caller":"core/init.go:43","msg":"缓存系统初始化成功","type":"redis"}
+{"level":"info","time":"2025-05-12T21:16:17.707+0800","caller":"runtime/asm_arm64.s:1223","msg":"server is start....[http://localhost:8080]"}
+{"level":"info","time":"2025-05-12T21:16:27.314+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":404,"方法":"POST","路径":"/api/auth/register","耗时":0}
+{"level":"info","time":"2025-05-12T21:16:41.523+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"POST","路径":"/api/v1/auth/register","耗时":0.000000102}
+{"level":"info","time":"2025-05-12T21:17:02.263+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"POST","路径":"/api/v1/auth/register","耗时":0.000000019}
+{"level":"info","time":"2025-05-12T21:17:10.043+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"POST","路径":"/api/v1/auth/register","耗时":0.000000023}
+{"level":"info","time":"2025-05-12T21:17:16.429+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"POST","路径":"/api/v1/auth/register","耗时":0.000000102}
+{"level":"info","time":"2025-05-12T21:18:10.269+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"POST","路径":"/api/v1/auth/register","耗时":0}
+{"level":"info","time":"2025-05-12T21:18:15.042+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"POST","路径":"/api/v1/auth/register","耗时":0}
+{"level":"info","time":"2025-05-12T21:18:16.835+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"POST","路径":"/api/v1/auth/register","耗时":0}
+{"level":"info","time":"2025-05-12T21:18:26.307+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"POST","路径":"/api/v1/auth/register","耗时":0}
+{"level":"info","time":"2025-05-12T21:18:28.984+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"POST","路径":"/api/v1/auth/register","耗时":0}
+{"level":"info","time":"2025-05-12T21:18:34.857+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"POST","路径":"/api/v1/auth/register","耗时":0}
+{"level":"info","time":"2025-05-12T21:24:01.066+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"POST","路径":"/api/v1/auth/register","耗时":0}
+{"level":"info","time":"2025-05-12T21:24:06.590+0800","caller":"core/init.go:98","msg":"server close..."}
+{"level":"info","time":"2025-05-12T21:24:06.590+0800","caller":"core/init.go:114","msg":"db connector is close"}
+{"level":"info","time":"2025-05-12T21:24:06.590+0800","caller":"core/init.go:98","msg":"server closed"}
+{"level":"info","time":"2025-05-12T21:24:09.733+0800","caller":"core/init.go:38","msg":"db connector successfully"}
+{"level":"info","time":"2025-05-12T21:24:09.733+0800","caller":"database/mysql.go:86","msg":"开始执行数据库迁移..."}
+{"level":"info","time":"2025-05-12T21:24:10.149+0800","caller":"database/mysql.go:86","msg":"数据库迁移完成"}
+{"level":"info","time":"2025-05-12T21:24:10.149+0800","caller":"database/migration.go:25","msg":"检查并初始化角色..."}
+{"level":"info","time":"2025-05-12T21:24:10.152+0800","caller":"database/migration.go:28","msg":"检查并初始化管理员账户..."}
+{"level":"info","time":"2025-05-12T21:24:10.172+0800","caller":"cache/cache.go:35","msg":"Redis缓存连接成功","host":"10.0.0.107","port":6379,"db":0}
+{"level":"info","time":"2025-05-12T21:24:10.172+0800","caller":"core/init.go:43","msg":"缓存系统初始化成功","type":"redis"}
+{"level":"info","time":"2025-05-12T21:24:10.172+0800","caller":"runtime/asm_arm64.s:1223","msg":"server is start....[http://localhost:8080]"}
+{"level":"info","time":"2025-05-12T21:24:18.196+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"POST","路径":"/api/v1/auth/register","耗时":0}
+{"level":"info","time":"2025-05-12T21:25:02.775+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"POST","路径":"/api/v1/auth/register","耗时":0}
+{"level":"info","time":"2025-05-12T21:25:03.913+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"POST","路径":"/api/v1/auth/register","耗时":0}
+{"level":"info","time":"2025-05-12T21:27:29.570+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"POST","路径":"/api/v1/auth/register","耗时":0}
+{"level":"info","time":"2025-05-12T21:27:49.797+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"POST","路径":"/api/v1/auth/register","耗时":0.00000011}
+{"level":"info","time":"2025-05-12T21:28:06.058+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"POST","路径":"/api/v1/auth/register","耗时":0.000000012}
+{"level":"info","time":"2025-05-12T21:33:29.393+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"POST","路径":"/api/v1/auth/register","耗时":0.000000014}
+{"level":"info","time":"2025-05-12T21:33:37.164+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"POST","路径":"/api/v1/auth/register","耗时":0}
+{"level":"info","time":"2025-05-12T21:33:54.144+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"POST","路径":"/api/v1/auth/login","耗时":0.000000117}
+{"level":"info","time":"2025-05-12T21:38:19.131+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"POST","路径":"/api/v1/auth/login","耗时":0.000000124}
+{"level":"info","time":"2025-05-12T21:38:21.857+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"POST","路径":"/api/v1/auth/login","耗时":0.00000011}
+{"level":"info","time":"2025-05-12T21:38:23.101+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"POST","路径":"/api/v1/auth/login","耗时":0.000000111}
+{"level":"info","time":"2025-05-12T21:38:24.368+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"POST","路径":"/api/v1/auth/login","耗时":0.000000116}
+{"level":"info","time":"2025-05-12T21:38:25.454+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"POST","路径":"/api/v1/auth/login","耗时":0.000000115}
+{"level":"info","time":"2025-05-12T21:38:26.422+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"POST","路径":"/api/v1/auth/login","耗时":0.00000011}
+{"level":"info","time":"2025-05-12T21:39:30.950+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":401,"方法":"GET","路径":"/api/v1/users","耗时":0}
+{"level":"info","time":"2025-05-12T21:40:18.706+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000031}
+{"level":"info","time":"2025-05-12T21:41:09.163+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":401,"方法":"GET","路径":"/api/v1/users","耗时":0}
+{"level":"info","time":"2025-05-12T21:41:23.684+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":401,"方法":"GET","路径":"/api/v1/users","耗时":0}
+{"level":"info","time":"2025-05-12T21:41:24.887+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":401,"方法":"GET","路径":"/api/v1/users","耗时":0}
+{"level":"info","time":"2025-05-12T21:41:29.975+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000031}
+{"level":"info","time":"2025-05-12T21:41:44.945+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000035}
+{"level":"info","time":"2025-05-12T21:41:46.226+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000037}
+{"level":"info","time":"2025-05-12T21:41:47.789+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000036}
+{"level":"info","time":"2025-05-12T21:42:09.158+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000034}
+{"level":"info","time":"2025-05-12T21:42:24.692+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":401,"方法":"GET","路径":"/api/v1/users","耗时":0}
+{"level":"info","time":"2025-05-12T21:42:47.443+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":401,"方法":"GET","路径":"/api/v1/users","耗时":0}
+{"level":"info","time":"2025-05-12T21:42:54.851+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.00000004}
+{"level":"info","time":"2025-05-12T21:44:04.233+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"POST","路径":"/api/v1/auth/register","耗时":0.000000104}
+{"level":"info","time":"2025-05-12T21:44:28.136+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"POST","路径":"/api/v1/auth/register","耗时":0.000000105}
+{"level":"info","time":"2025-05-12T21:44:51.565+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"POST","路径":"/api/v1/auth/register","耗时":0.000000103}
+{"level":"info","time":"2025-05-12T21:44:58.298+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"POST","路径":"/api/v1/auth/login","耗时":0.000000103}
+{"level":"info","time":"2025-05-12T21:45:02.818+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"POST","路径":"/api/v1/auth/login","耗时":0.00000001}
+{"level":"info","time":"2025-05-12T21:45:08.300+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"POST","路径":"/api/v1/auth/login","耗时":0.000000109}
+{"level":"info","time":"2025-05-12T21:45:13.282+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"POST","路径":"/api/v1/auth/login","耗时":0.000000093}
+{"level":"info","time":"2025-05-12T21:45:20.483+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"POST","路径":"/api/v1/auth/login","耗时":0.000000083}
+{"level":"info","time":"2025-05-12T21:45:21.273+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"POST","路径":"/api/v1/auth/login","耗时":0.000000083}
+{"level":"info","time":"2025-05-12T21:45:25.766+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"POST","路径":"/api/v1/auth/login","耗时":0.000000102}
+{"level":"info","time":"2025-05-12T21:45:50.490+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"POST","路径":"/api/v1/auth/register","耗时":0.000000115}
+{"level":"info","time":"2025-05-12T21:46:05.113+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"POST","路径":"/api/v1/auth/register","耗时":0.000000098}
+{"level":"info","time":"2025-05-12T21:46:32.605+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"POST","路径":"/api/v1/auth/register","耗时":0.000000091}
+{"level":"info","time":"2025-05-12T21:46:44.192+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"POST","路径":"/api/v1/auth/register","耗时":0.000000021}
+{"level":"info","time":"2025-05-12T21:46:48.396+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"POST","路径":"/api/v1/auth/register","耗时":0.000000099}
+{"level":"info","time":"2025-05-12T21:47:02.003+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"POST","路径":"/api/v1/auth/register","耗时":0.000000104}
+{"level":"info","time":"2025-05-12T21:47:14.933+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"POST","路径":"/api/v1/auth/register","耗时":0.000000098}
+{"level":"info","time":"2025-05-12T21:47:30.183+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.00000003}
+{"level":"info","time":"2025-05-12T21:53:35.928+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000038}
+{"level":"info","time":"2025-05-12T21:54:37.170+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000039}
+{"level":"info","time":"2025-05-12T21:55:10.785+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000032}
+{"level":"info","time":"2025-05-12T21:56:10.941+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000033}
+{"level":"info","time":"2025-05-12T21:56:44.856+0800","caller":"core/init.go:98","msg":"server close..."}
+{"level":"info","time":"2025-05-12T21:56:44.856+0800","caller":"core/init.go:114","msg":"db connector is close"}
+{"level":"info","time":"2025-05-12T21:56:44.856+0800","caller":"core/init.go:98","msg":"server closed"}
+{"level":"info","time":"2025-05-12T21:56:59.997+0800","caller":"core/init.go:38","msg":"db connector successfully"}
+{"level":"info","time":"2025-05-12T21:56:59.998+0800","caller":"database/mysql.go:86","msg":"开始执行数据库迁移..."}
+{"level":"info","time":"2025-05-12T21:57:01.083+0800","caller":"database/mysql.go:86","msg":"数据库迁移完成"}
+{"level":"info","time":"2025-05-12T21:57:01.083+0800","caller":"database/migration.go:25","msg":"检查并初始化角色..."}
+{"level":"info","time":"2025-05-12T21:57:01.086+0800","caller":"database/migration.go:28","msg":"检查并初始化管理员账户..."}
+{"level":"info","time":"2025-05-12T21:57:01.104+0800","caller":"cache/cache.go:35","msg":"Redis缓存连接成功","host":"10.0.0.107","port":6379,"db":0}
+{"level":"info","time":"2025-05-12T21:57:01.104+0800","caller":"core/init.go:43","msg":"缓存系统初始化成功","type":"redis"}
+{"level":"info","time":"2025-05-12T21:57:01.105+0800","caller":"runtime/asm_arm64.s:1223","msg":"server is start....[http://localhost:8080]"}
+{"level":"info","time":"2025-05-12T21:57:52.081+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000037514}
+{"level":"info","time":"2025-05-12T21:58:12.040+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000038}
+{"level":"info","time":"2025-05-12T21:58:25.950+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000039}
+{"level":"info","time":"2025-05-12T21:58:30.798+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000042}
+{"level":"info","time":"2025-05-12T22:23:12.188+0800","caller":"core/init.go:38","msg":"db connector successfully"}
+{"level":"info","time":"2025-05-12T22:23:12.189+0800","caller":"database/mysql.go:86","msg":"开始执行数据库迁移..."}
+{"level":"info","time":"2025-05-12T22:23:12.619+0800","caller":"database/mysql.go:86","msg":"数据库迁移完成"}
+{"level":"info","time":"2025-05-12T22:23:12.619+0800","caller":"database/migration.go:25","msg":"检查并初始化角色..."}
+{"level":"info","time":"2025-05-12T22:23:12.622+0800","caller":"database/migration.go:28","msg":"检查并初始化管理员账户..."}
+{"level":"info","time":"2025-05-12T22:23:12.641+0800","caller":"cache/cache.go:35","msg":"Redis缓存连接成功","host":"10.0.0.107","port":6379,"db":0}
+{"level":"info","time":"2025-05-12T22:23:12.641+0800","caller":"core/init.go:43","msg":"缓存系统初始化成功","type":"redis"}
+{"level":"info","time":"2025-05-12T22:23:12.642+0800","caller":"runtime/asm_arm64.s:1223","msg":"server is start....[http://localhost:8080]"}
+{"level":"info","time":"2025-05-12T22:23:20.687+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000018}
+{"level":"info","time":"2025-05-12T22:24:08.909+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000015}
+{"level":"info","time":"2025-05-12T22:24:21.872+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000017}
+{"level":"info","time":"2025-05-12T22:24:37.060+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000017}
+{"level":"info","time":"2025-05-12T22:25:15.925+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000014}
+{"level":"info","time":"2025-05-12T22:25:17.037+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000016}
+{"level":"info","time":"2025-05-12T22:25:17.895+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.00000002}
+{"level":"info","time":"2025-05-12T22:25:18.269+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000013}
+{"level":"info","time":"2025-05-12T22:25:19.017+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000015}
+{"level":"info","time":"2025-05-12T22:26:28.890+0800","caller":"core/init.go:98","msg":"server close..."}
+{"level":"info","time":"2025-05-12T22:26:28.891+0800","caller":"core/init.go:114","msg":"db connector is close"}
+{"level":"info","time":"2025-05-12T22:26:28.891+0800","caller":"core/init.go:98","msg":"server closed"}
+{"level":"info","time":"2025-05-12T22:26:35.113+0800","caller":"core/init.go:38","msg":"db connector successfully"}
+{"level":"info","time":"2025-05-12T22:26:35.113+0800","caller":"database/mysql.go:86","msg":"开始执行数据库迁移..."}
+{"level":"info","time":"2025-05-12T22:26:35.539+0800","caller":"database/mysql.go:86","msg":"数据库迁移完成"}
+{"level":"info","time":"2025-05-12T22:26:35.539+0800","caller":"database/migration.go:25","msg":"检查并初始化角色..."}
+{"level":"info","time":"2025-05-12T22:26:35.542+0800","caller":"database/migration.go:28","msg":"检查并初始化管理员账户..."}
+{"level":"info","time":"2025-05-12T22:26:35.564+0800","caller":"cache/cache.go:35","msg":"Redis缓存连接成功","host":"10.0.0.107","port":6379,"db":0}
+{"level":"info","time":"2025-05-12T22:26:35.564+0800","caller":"core/init.go:43","msg":"缓存系统初始化成功","type":"redis"}
+{"level":"info","time":"2025-05-12T22:26:35.566+0800","caller":"runtime/asm_arm64.s:1223","msg":"server is start....[http://localhost:8080]"}
+{"level":"info","time":"2025-05-12T22:27:02.938+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.00000004}
+{"level":"info","time":"2025-05-12T22:31:47.088+0800","caller":"core/init.go:98","msg":"server close..."}
+{"level":"info","time":"2025-05-12T22:31:47.090+0800","caller":"core/init.go:114","msg":"db connector is close"}
+{"level":"info","time":"2025-05-12T22:31:47.090+0800","caller":"core/init.go:98","msg":"server closed"}
+{"level":"info","time":"2025-05-12T22:31:53.844+0800","caller":"core/init.go:38","msg":"db connector successfully"}
+{"level":"info","time":"2025-05-12T22:31:53.844+0800","caller":"database/mysql.go:86","msg":"开始执行数据库迁移..."}
+{"level":"info","time":"2025-05-12T22:31:54.247+0800","caller":"database/mysql.go:86","msg":"数据库迁移完成"}
+{"level":"info","time":"2025-05-12T22:31:54.247+0800","caller":"database/migration.go:25","msg":"检查并初始化角色..."}
+{"level":"info","time":"2025-05-12T22:31:54.250+0800","caller":"database/migration.go:28","msg":"检查并初始化管理员账户..."}
+{"level":"info","time":"2025-05-12T22:31:54.274+0800","caller":"cache/cache.go:35","msg":"Redis缓存连接成功","host":"10.0.0.107","port":6379,"db":0}
+{"level":"info","time":"2025-05-12T22:31:54.274+0800","caller":"core/init.go:43","msg":"缓存系统初始化成功","type":"redis"}
+{"level":"info","time":"2025-05-12T22:31:54.274+0800","caller":"runtime/asm_arm64.s:1223","msg":"server is start....[http://localhost:8080]"}
+{"level":"info","time":"2025-05-12T22:31:58.785+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.00000003}
+{"level":"info","time":"2025-05-12T22:32:07.552+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000029}
+{"level":"info","time":"2025-05-12T22:32:41.009+0800","caller":"core/init.go:98","msg":"server close..."}
+{"level":"info","time":"2025-05-12T22:32:41.010+0800","caller":"core/init.go:114","msg":"db connector is close"}
+{"level":"info","time":"2025-05-12T22:32:41.010+0800","caller":"core/init.go:98","msg":"server closed"}
+{"level":"info","time":"2025-05-12T22:32:46.258+0800","caller":"core/init.go:38","msg":"db connector successfully"}
+{"level":"info","time":"2025-05-12T22:32:46.259+0800","caller":"database/mysql.go:86","msg":"开始执行数据库迁移..."}
+{"level":"info","time":"2025-05-12T22:32:46.665+0800","caller":"database/mysql.go:86","msg":"数据库迁移完成"}
+{"level":"info","time":"2025-05-12T22:32:46.665+0800","caller":"database/migration.go:25","msg":"检查并初始化角色..."}
+{"level":"info","time":"2025-05-12T22:32:46.668+0800","caller":"database/migration.go:28","msg":"检查并初始化管理员账户..."}
+{"level":"info","time":"2025-05-12T22:32:46.689+0800","caller":"cache/cache.go:35","msg":"Redis缓存连接成功","host":"10.0.0.107","port":6379,"db":0}
+{"level":"info","time":"2025-05-12T22:32:46.689+0800","caller":"core/init.go:43","msg":"缓存系统初始化成功","type":"redis"}
+{"level":"info","time":"2025-05-12T22:32:46.690+0800","caller":"runtime/asm_arm64.s:1223","msg":"server is start....[http://localhost:8080]"}
+{"level":"info","time":"2025-05-12T22:35:10.629+0800","caller":"core/init.go:38","msg":"db connector successfully"}
+{"level":"info","time":"2025-05-12T22:35:10.630+0800","caller":"database/mysql.go:86","msg":"开始执行数据库迁移..."}
+{"level":"info","time":"2025-05-12T22:35:11.064+0800","caller":"database/mysql.go:86","msg":"数据库迁移完成"}
+{"level":"info","time":"2025-05-12T22:35:11.064+0800","caller":"database/migration.go:25","msg":"检查并初始化角色..."}
+{"level":"info","time":"2025-05-12T22:35:11.067+0800","caller":"database/migration.go:28","msg":"检查并初始化管理员账户..."}
+{"level":"info","time":"2025-05-12T22:35:11.092+0800","caller":"cache/cache.go:35","msg":"Redis缓存连接成功","host":"10.0.0.107","port":6379,"db":0}
+{"level":"info","time":"2025-05-12T22:35:11.093+0800","caller":"core/init.go:43","msg":"缓存系统初始化成功","type":"redis"}
+{"level":"info","time":"2025-05-12T22:35:11.093+0800","caller":"runtime/asm_arm64.s:1223","msg":"server is start....[http://localhost:8080]"}
+{"level":"info","time":"2025-05-12T22:35:13.835+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000027}
+{"level":"info","time":"2025-05-12T22:35:23.537+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000016}
+{"level":"info","time":"2025-05-12T22:35:25.181+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000015}
+{"level":"info","time":"2025-05-12T22:35:25.610+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000014}
+{"level":"info","time":"2025-05-12T22:35:31.892+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000014}
+{"level":"info","time":"2025-05-12T22:35:40.051+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000025}
+{"level":"info","time":"2025-05-12T22:35:57.544+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000028}
+{"level":"info","time":"2025-05-12T22:36:20.385+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000032}
+{"level":"info","time":"2025-05-12T22:36:21.743+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000033}
+{"level":"info","time":"2025-05-12T22:36:36.045+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.00000003}
+{"level":"info","time":"2025-05-12T22:38:26.687+0800","caller":"core/init.go:98","msg":"server close..."}
+{"level":"info","time":"2025-05-12T22:38:26.688+0800","caller":"core/init.go:114","msg":"db connector is close"}
+{"level":"info","time":"2025-05-12T22:38:26.688+0800","caller":"core/init.go:98","msg":"server closed"}
+{"level":"info","time":"2025-05-12T22:38:36.067+0800","caller":"core/init.go:38","msg":"db connector successfully"}
+{"level":"info","time":"2025-05-12T22:38:36.067+0800","caller":"database/mysql.go:86","msg":"开始执行数据库迁移..."}
+{"level":"info","time":"2025-05-12T22:38:36.496+0800","caller":"database/mysql.go:86","msg":"数据库迁移完成"}
+{"level":"info","time":"2025-05-12T22:38:36.496+0800","caller":"database/migration.go:25","msg":"检查并初始化角色..."}
+{"level":"info","time":"2025-05-12T22:38:36.500+0800","caller":"database/migration.go:28","msg":"检查并初始化管理员账户..."}
+{"level":"info","time":"2025-05-12T22:38:36.521+0800","caller":"cache/cache.go:35","msg":"Redis缓存连接成功","host":"10.0.0.107","port":6379,"db":0}
+{"level":"info","time":"2025-05-12T22:38:36.521+0800","caller":"core/init.go:43","msg":"缓存系统初始化成功","type":"redis"}
+{"level":"info","time":"2025-05-12T22:38:36.521+0800","caller":"runtime/asm_arm64.s:1223","msg":"server is start....[http://localhost:8080]"}
+{"level":"info","time":"2025-05-12T22:41:17.198+0800","caller":"core/init.go:38","msg":"db connector successfully"}
+{"level":"info","time":"2025-05-12T22:41:17.198+0800","caller":"database/mysql.go:86","msg":"开始执行数据库迁移..."}
+{"level":"info","time":"2025-05-12T22:41:17.602+0800","caller":"database/mysql.go:86","msg":"数据库迁移完成"}
+{"level":"info","time":"2025-05-12T22:41:17.603+0800","caller":"database/migration.go:25","msg":"检查并初始化角色..."}
+{"level":"info","time":"2025-05-12T22:41:17.606+0800","caller":"database/migration.go:28","msg":"检查并初始化管理员账户..."}
+{"level":"info","time":"2025-05-12T22:41:17.627+0800","caller":"cache/cache.go:35","msg":"Redis缓存连接成功","host":"10.0.0.107","port":6379,"db":0}
+{"level":"info","time":"2025-05-12T22:41:17.627+0800","caller":"core/init.go:43","msg":"缓存系统初始化成功","type":"redis"}
+{"level":"info","time":"2025-05-12T22:41:17.627+0800","caller":"runtime/asm_arm64.s:1223","msg":"server is start....[http://localhost:8080]"}
+{"level":"info","time":"2025-05-12T22:41:28.787+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000017}
+{"level":"info","time":"2025-05-12T22:41:53.519+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000007999}
+{"level":"info","time":"2025-05-12T22:42:09.381+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000035}
+{"level":"info","time":"2025-05-12T22:42:24.810+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000034}
+{"level":"info","time":"2025-05-12T22:42:33.497+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000029}
+{"level":"info","time":"2025-05-12T22:43:51.541+0800","caller":"core/init.go:38","msg":"db connector successfully"}
+{"level":"info","time":"2025-05-12T22:43:51.541+0800","caller":"database/mysql.go:86","msg":"开始执行数据库迁移..."}
+{"level":"info","time":"2025-05-12T22:43:51.946+0800","caller":"database/mysql.go:86","msg":"数据库迁移完成"}
+{"level":"info","time":"2025-05-12T22:43:51.946+0800","caller":"database/migration.go:25","msg":"检查并初始化角色..."}
+{"level":"info","time":"2025-05-12T22:43:51.949+0800","caller":"database/migration.go:28","msg":"检查并初始化管理员账户..."}
+{"level":"info","time":"2025-05-12T22:43:51.972+0800","caller":"cache/cache.go:35","msg":"Redis缓存连接成功","host":"10.0.0.107","port":6379,"db":0}
+{"level":"info","time":"2025-05-12T22:43:51.972+0800","caller":"core/init.go:43","msg":"缓存系统初始化成功","type":"redis"}
+{"level":"info","time":"2025-05-12T22:43:51.972+0800","caller":"runtime/asm_arm64.s:1223","msg":"server is start....[http://localhost:8080]"}
+{"level":"info","time":"2025-05-12T22:44:18.690+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000008676}
+{"level":"info","time":"2025-05-12T22:44:26.424+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.00000003}
+{"level":"info","time":"2025-05-12T22:44:27.731+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000036}
+{"level":"info","time":"2025-05-12T22:45:00.028+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000029}
+{"level":"info","time":"2025-05-12T22:45:53.373+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000056}
+{"level":"info","time":"2025-05-12T22:46:16.192+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000033}
+{"level":"info","time":"2025-05-12T22:46:22.145+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000047}
+{"level":"info","time":"2025-05-12T22:46:34.757+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000034}
+{"level":"info","time":"2025-05-12T22:46:47.433+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.00000004}
+{"level":"info","time":"2025-05-12T22:47:24.217+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000034}
+{"level":"info","time":"2025-05-12T22:48:12.308+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000048}
+{"level":"info","time":"2025-05-12T22:48:42.397+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000035}
+{"level":"info","time":"2025-05-12T22:48:47.556+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000031}
+{"level":"info","time":"2025-05-12T22:48:48.951+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000025}
+{"level":"info","time":"2025-05-12T22:48:49.388+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000035}
+{"level":"info","time":"2025-05-12T22:48:57.994+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000038}
+{"level":"info","time":"2025-05-12T22:49:03.637+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000046}
+{"level":"info","time":"2025-05-12T22:49:16.593+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.00000003}
+{"level":"info","time":"2025-05-12T22:49:23.609+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000038}
+{"level":"info","time":"2025-05-12T22:49:38.024+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.00000004}
+{"level":"info","time":"2025-05-12T22:50:05.079+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000015}
+{"level":"info","time":"2025-05-12T22:50:10.778+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000037}
+{"level":"info","time":"2025-05-12T22:50:24.328+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.00000004}
+{"level":"info","time":"2025-05-12T22:50:34.053+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000039}
+{"level":"info","time":"2025-05-12T22:50:50.854+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":401,"方法":"GET","路径":"/api/v1/users","耗时":0}
+{"level":"info","time":"2025-05-12T22:51:05.424+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":401,"方法":"GET","路径":"/api/v1/users","耗时":0}
+{"level":"info","time":"2025-05-12T22:51:06.742+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":401,"方法":"GET","路径":"/api/v1/users","耗时":0}
+{"level":"info","time":"2025-05-12T22:51:07.247+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":401,"方法":"GET","路径":"/api/v1/users","耗时":0}
+{"level":"info","time":"2025-05-12T22:51:13.885+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000039}
+{"level":"info","time":"2025-05-12T22:53:08.990+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000038}
+{"level":"info","time":"2025-05-12T22:53:10.067+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000036}
+{"level":"info","time":"2025-05-12T22:53:39.942+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users/1","耗时":0.000000019}
+{"level":"info","time":"2025-05-12T22:53:46.524+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users/2","耗时":0.000000016}
+{"level":"info","time":"2025-05-12T22:53:52.320+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000039}
+{"level":"info","time":"2025-05-12T22:54:26.696+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":401,"方法":"GET","路径":"/api/v1/users/1","耗时":0.000000006}
+{"level":"info","time":"2025-05-12T22:54:51.678+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users/1","耗时":0.000000015}
+{"level":"info","time":"2025-05-12T22:59:08.735+0800","caller":"core/init.go:38","msg":"db connector successfully"}
+{"level":"info","time":"2025-05-12T22:59:08.735+0800","caller":"database/mysql.go:86","msg":"开始执行数据库迁移..."}
+{"level":"info","time":"2025-05-12T22:59:09.142+0800","caller":"database/mysql.go:86","msg":"数据库迁移完成"}
+{"level":"info","time":"2025-05-12T22:59:09.142+0800","caller":"database/migration.go:25","msg":"检查并初始化角色..."}
+{"level":"info","time":"2025-05-12T22:59:09.145+0800","caller":"database/migration.go:28","msg":"检查并初始化管理员账户..."}
+{"level":"info","time":"2025-05-12T22:59:09.170+0800","caller":"cache/cache.go:35","msg":"Redis缓存连接成功","host":"10.0.0.107","port":6379,"db":0}
+{"level":"info","time":"2025-05-12T22:59:09.170+0800","caller":"core/init.go:43","msg":"缓存系统初始化成功","type":"redis"}
+{"level":"info","time":"2025-05-12T22:59:09.170+0800","caller":"runtime/asm_arm64.s:1223","msg":"server is start....[http://localhost:8080]"}
+{"level":"info","time":"2025-05-12T22:59:15.119+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users/1","耗时":0.000000031}
+{"level":"info","time":"2025-05-12T22:59:59.129+0800","caller":"core/init.go:98","msg":"server close..."}
+{"level":"info","time":"2025-05-12T22:59:59.131+0800","caller":"core/init.go:114","msg":"db connector is close"}
+{"level":"info","time":"2025-05-12T22:59:59.131+0800","caller":"core/init.go:98","msg":"server closed"}
+{"level":"info","time":"2025-05-12T23:00:04.499+0800","caller":"core/init.go:38","msg":"db connector successfully"}
+{"level":"info","time":"2025-05-12T23:00:04.500+0800","caller":"database/mysql.go:86","msg":"开始执行数据库迁移..."}
+{"level":"info","time":"2025-05-12T23:00:04.921+0800","caller":"database/mysql.go:86","msg":"数据库迁移完成"}
+{"level":"info","time":"2025-05-12T23:00:04.921+0800","caller":"database/migration.go:25","msg":"检查并初始化角色..."}
+{"level":"info","time":"2025-05-12T23:00:04.926+0800","caller":"database/migration.go:28","msg":"检查并初始化管理员账户..."}
+{"level":"info","time":"2025-05-12T23:00:04.950+0800","caller":"cache/cache.go:35","msg":"Redis缓存连接成功","host":"10.0.0.107","port":6379,"db":0}
+{"level":"info","time":"2025-05-12T23:00:04.951+0800","caller":"core/init.go:43","msg":"缓存系统初始化成功","type":"redis"}
+{"level":"info","time":"2025-05-12T23:00:04.951+0800","caller":"runtime/asm_arm64.s:1223","msg":"server is start....[http://localhost:8080]"}
+{"level":"info","time":"2025-05-12T23:00:24.998+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users/1","耗时":0.0000075}
+{"level":"info","time":"2025-05-12T23:00:30.775+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users/1","耗时":0.000000028}
+{"level":"info","time":"2025-05-12T23:00:32.338+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users/1","耗时":0.000000034}
+{"level":"info","time":"2025-05-12T23:00:33.171+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users/1","耗时":0.000000039}
+{"level":"info","time":"2025-05-12T23:00:33.534+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users/1","耗时":0.000000031}
+{"level":"info","time":"2025-05-12T23:00:34.063+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users/1","耗时":0.000000034}
+{"level":"info","time":"2025-05-12T23:00:49.585+0800","caller":"core/init.go:38","msg":"db connector successfully"}
+{"level":"info","time":"2025-05-12T23:00:49.585+0800","caller":"database/mysql.go:86","msg":"开始执行数据库迁移..."}
+{"level":"info","time":"2025-05-12T23:00:50.034+0800","caller":"database/mysql.go:86","msg":"数据库迁移完成"}
+{"level":"info","time":"2025-05-12T23:00:50.034+0800","caller":"database/migration.go:25","msg":"检查并初始化角色..."}
+{"level":"info","time":"2025-05-12T23:00:50.037+0800","caller":"database/migration.go:28","msg":"检查并初始化管理员账户..."}
+{"level":"info","time":"2025-05-12T23:00:50.059+0800","caller":"cache/cache.go:35","msg":"Redis缓存连接成功","host":"10.0.0.107","port":6379,"db":0}
+{"level":"info","time":"2025-05-12T23:00:50.059+0800","caller":"core/init.go:43","msg":"缓存系统初始化成功","type":"redis"}
+{"level":"info","time":"2025-05-12T23:00:50.059+0800","caller":"runtime/asm_arm64.s:1223","msg":"server is start....[http://localhost:8080]"}
+{"level":"info","time":"2025-05-12T23:00:52.252+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users/1","耗时":0.000000017}
+{"level":"info","time":"2025-05-12T23:01:08.016+0800","caller":"core/init.go:98","msg":"server close..."}
+{"level":"info","time":"2025-05-12T23:01:08.017+0800","caller":"core/init.go:114","msg":"db connector is close"}
+{"level":"info","time":"2025-05-12T23:01:08.018+0800","caller":"core/init.go:98","msg":"server closed"}
+{"level":"info","time":"2025-05-12T23:01:12.220+0800","caller":"core/init.go:38","msg":"db connector successfully"}
+{"level":"info","time":"2025-05-12T23:01:12.220+0800","caller":"database/mysql.go:86","msg":"开始执行数据库迁移..."}
+{"level":"info","time":"2025-05-12T23:01:12.654+0800","caller":"database/mysql.go:86","msg":"数据库迁移完成"}
+{"level":"info","time":"2025-05-12T23:01:12.654+0800","caller":"database/migration.go:25","msg":"检查并初始化角色..."}
+{"level":"info","time":"2025-05-12T23:01:12.657+0800","caller":"database/migration.go:28","msg":"检查并初始化管理员账户..."}
+{"level":"info","time":"2025-05-12T23:01:12.675+0800","caller":"cache/cache.go:35","msg":"Redis缓存连接成功","host":"10.0.0.107","port":6379,"db":0}
+{"level":"info","time":"2025-05-12T23:01:12.675+0800","caller":"core/init.go:43","msg":"缓存系统初始化成功","type":"redis"}
+{"level":"info","time":"2025-05-12T23:01:12.675+0800","caller":"runtime/asm_arm64.s:1223","msg":"server is start....[http://localhost:8080]"}
+{"level":"info","time":"2025-05-12T23:01:17.531+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users/1","耗时":0.000000029}
+{"level":"info","time":"2025-05-12T23:01:38.107+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users/1","耗时":0.000000029}
+{"level":"info","time":"2025-05-12T23:01:39.140+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users/1","耗时":0.000000034}
+{"level":"info","time":"2025-05-12T23:02:41.121+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users/1","耗时":0.000000034}
+{"level":"info","time":"2025-05-12T23:02:42.063+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users/1","耗时":0.000000034}
+{"level":"info","time":"2025-05-12T23:07:34.812+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":401,"方法":"PUT","路径":"/api/v1/users/5","耗时":0}
+{"level":"info","time":"2025-05-12T23:07:56.669+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"PUT","路径":"/api/v1/users/5","耗时":0.000000034}
+{"level":"info","time":"2025-05-12T23:08:19.825+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"PUT","路径":"/api/v1/users/5","耗时":0.000000034}
+{"level":"info","time":"2025-05-12T23:08:41.870+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"PUT","路径":"/api/v1/users/5","耗时":0.00000003}
+{"level":"info","time":"2025-05-12T23:08:43.118+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"PUT","路径":"/api/v1/users/5","耗时":0.00000003}
+{"level":"info","time":"2025-05-12T23:08:43.873+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"PUT","路径":"/api/v1/users/5","耗时":0.000000034}
+{"level":"info","time":"2025-05-12T23:08:44.256+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"PUT","路径":"/api/v1/users/5","耗时":0.000000032}
+{"level":"info","time":"2025-05-12T23:08:59.455+0800","caller":"core/init.go:98","msg":"server close..."}
+{"level":"info","time":"2025-05-12T23:08:59.455+0800","caller":"core/init.go:114","msg":"db connector is close"}
+{"level":"info","time":"2025-05-12T23:08:59.455+0800","caller":"core/init.go:98","msg":"server closed"}
+{"level":"info","time":"2025-05-12T23:09:19.883+0800","caller":"core/init.go:38","msg":"db connector successfully"}
+{"level":"info","time":"2025-05-12T23:09:19.883+0800","caller":"database/mysql.go:86","msg":"开始执行数据库迁移..."}
+{"level":"info","time":"2025-05-12T23:09:20.321+0800","caller":"database/mysql.go:86","msg":"数据库迁移完成"}
+{"level":"info","time":"2025-05-12T23:09:20.321+0800","caller":"database/migration.go:25","msg":"检查并初始化角色..."}
+{"level":"info","time":"2025-05-12T23:09:20.325+0800","caller":"database/migration.go:28","msg":"检查并初始化管理员账户..."}
+{"level":"info","time":"2025-05-12T23:09:20.349+0800","caller":"cache/cache.go:35","msg":"Redis缓存连接成功","host":"10.0.0.107","port":6379,"db":0}
+{"level":"info","time":"2025-05-12T23:09:20.349+0800","caller":"core/init.go:43","msg":"缓存系统初始化成功","type":"redis"}
+{"level":"info","time":"2025-05-12T23:09:20.349+0800","caller":"runtime/asm_arm64.s:1223","msg":"server is start....[http://localhost:8080]"}
+{"level":"info","time":"2025-05-12T23:09:24.953+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"PUT","路径":"/api/v1/users/5","耗时":0.000000085}
+{"level":"info","time":"2025-05-12T23:09:29.256+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"PUT","路径":"/api/v1/users/5","耗时":0.000000083}
+{"level":"info","time":"2025-05-12T23:09:46.727+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"PUT","路径":"/api/v1/users/5","耗时":0.000000077}
+{"level":"info","time":"2025-05-12T23:10:00.588+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"PUT","路径":"/api/v1/users/5","耗时":0.000000075}
+{"level":"info","time":"2025-05-12T23:10:01.854+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"PUT","路径":"/api/v1/users/5","耗时":0.000000079}
+{"level":"info","time":"2025-05-12T23:10:02.751+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"PUT","路径":"/api/v1/users/5","耗时":0.000000078}
+{"level":"info","time":"2025-05-12T23:10:22.445+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"PUT","路径":"/api/v1/users/5","耗时":0.000000083}
+{"level":"info","time":"2025-05-12T23:11:23.812+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"PUT","路径":"/api/v1/users/5","耗时":0.000000082}
+{"level":"info","time":"2025-05-12T23:11:55.064+0800","caller":"core/init.go:98","msg":"server close..."}
+{"level":"info","time":"2025-05-12T23:11:55.065+0800","caller":"core/init.go:114","msg":"db connector is close"}
+{"level":"info","time":"2025-05-12T23:11:55.065+0800","caller":"core/init.go:98","msg":"server closed"}
+{"level":"info","time":"2025-05-12T23:12:00.670+0800","caller":"core/init.go:38","msg":"db connector successfully"}
+{"level":"info","time":"2025-05-12T23:12:00.670+0800","caller":"database/mysql.go:86","msg":"开始执行数据库迁移..."}
+{"level":"info","time":"2025-05-12T23:12:01.081+0800","caller":"database/mysql.go:86","msg":"数据库迁移完成"}
+{"level":"info","time":"2025-05-12T23:12:01.081+0800","caller":"database/migration.go:25","msg":"检查并初始化角色..."}
+{"level":"info","time":"2025-05-12T23:12:01.084+0800","caller":"database/migration.go:28","msg":"检查并初始化管理员账户..."}
+{"level":"info","time":"2025-05-12T23:12:01.104+0800","caller":"cache/cache.go:35","msg":"Redis缓存连接成功","host":"10.0.0.107","port":6379,"db":0}
+{"level":"info","time":"2025-05-12T23:12:01.104+0800","caller":"core/init.go:43","msg":"缓存系统初始化成功","type":"redis"}
+{"level":"info","time":"2025-05-12T23:12:01.105+0800","caller":"runtime/asm_arm64.s:1223","msg":"server is start....[http://localhost:8080]"}
+{"level":"info","time":"2025-05-12T23:12:53.660+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"PUT","路径":"/api/v1/users/5","耗时":0.000036417}
+{"level":"info","time":"2025-05-12T23:13:08.223+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"PUT","路径":"/api/v1/users/5","耗时":0.000000084}
+{"level":"info","time":"2025-05-12T23:15:19.720+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"PUT","路径":"/api/v1/users/5","耗时":0.000017172}
+{"level":"info","time":"2025-05-12T23:16:03.135+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"PUT","路径":"/api/v1/users/5","耗时":0.000000086}
+{"level":"info","time":"2025-05-12T23:16:24.851+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"PUT","路径":"/api/v1/users/5","耗时":0.000000088}
+{"level":"info","time":"2025-05-12T23:16:57.009+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"POST","路径":"/api/v1/auth/login","耗时":0.000000114}
+{"level":"info","time":"2025-05-12T23:17:17.017+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"PUT","路径":"/api/v1/users/5","耗时":0.000000093}
+{"level":"info","time":"2025-05-12T23:21:04.943+0800","caller":"core/init.go:38","msg":"db connector successfully"}
+{"level":"info","time":"2025-05-12T23:21:04.944+0800","caller":"database/mysql.go:86","msg":"开始执行数据库迁移..."}
+{"level":"info","time":"2025-05-12T23:21:05.447+0800","caller":"database/mysql.go:86","msg":"数据库迁移完成"}
+{"level":"info","time":"2025-05-12T23:21:05.447+0800","caller":"database/migration.go:25","msg":"检查并初始化角色..."}
+{"level":"info","time":"2025-05-12T23:21:05.452+0800","caller":"database/migration.go:28","msg":"检查并初始化管理员账户..."}
+{"level":"info","time":"2025-05-12T23:21:48.354+0800","caller":"cache/cache.go:35","msg":"Redis缓存连接成功","host":"10.0.0.107","port":6379,"db":0}
+{"level":"info","time":"2025-05-12T23:21:52.341+0800","caller":"core/init.go:43","msg":"缓存系统初始化成功","type":"redis"}
+{"level":"info","time":"2025-05-12T23:21:52.341+0800","caller":"runtime/asm_arm64.s:1223","msg":"server is start....[http://localhost:8080]"}
+{"level":"info","time":"2025-05-12T23:56:55.303+0800","caller":"core/init.go:38","msg":"db connector successfully"}
+{"level":"info","time":"2025-05-12T23:56:55.304+0800","caller":"database/mysql.go:86","msg":"开始执行数据库迁移..."}
+{"level":"info","time":"2025-05-12T23:56:55.755+0800","caller":"database/mysql.go:86","msg":"数据库迁移完成"}
+{"level":"info","time":"2025-05-12T23:56:55.755+0800","caller":"database/migration.go:25","msg":"检查并初始化角色..."}
+{"level":"info","time":"2025-05-12T23:56:55.760+0800","caller":"database/migration.go:28","msg":"检查并初始化管理员账户..."}
+{"level":"info","time":"2025-05-12T23:56:55.780+0800","caller":"cache/cache.go:35","msg":"Redis缓存连接成功","host":"10.0.0.107","port":6379,"db":0}
+{"level":"info","time":"2025-05-12T23:56:55.781+0800","caller":"core/init.go:43","msg":"缓存系统初始化成功","type":"redis"}
+{"level":"info","time":"2025-05-12T23:56:55.782+0800","caller":"runtime/asm_arm64.s:1223","msg":"server is start....[http://localhost:8080]"}
+{"level":"info","time":"2025-05-12T23:57:08.493+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000046}
+{"level":"info","time":"2025-05-12T23:57:39.622+0800","caller":"core/init.go:98","msg":"server close..."}
+{"level":"info","time":"2025-05-12T23:57:39.623+0800","caller":"core/init.go:114","msg":"db connector is close"}
+{"level":"info","time":"2025-05-12T23:57:39.623+0800","caller":"core/init.go:98","msg":"server closed"}
+{"level":"info","time":"2025-05-12T23:57:44.821+0800","caller":"core/init.go:38","msg":"db connector successfully"}
+{"level":"info","time":"2025-05-12T23:57:44.821+0800","caller":"database/mysql.go:86","msg":"开始执行数据库迁移..."}
+{"level":"info","time":"2025-05-12T23:57:45.247+0800","caller":"database/mysql.go:86","msg":"数据库迁移完成"}
+{"level":"info","time":"2025-05-12T23:57:45.247+0800","caller":"database/migration.go:25","msg":"检查并初始化角色..."}
+{"level":"info","time":"2025-05-12T23:57:45.251+0800","caller":"database/migration.go:28","msg":"检查并初始化管理员账户..."}
+{"level":"info","time":"2025-05-12T23:57:45.272+0800","caller":"cache/cache.go:35","msg":"Redis缓存连接成功","host":"10.0.0.107","port":6379,"db":0}
+{"level":"info","time":"2025-05-12T23:57:45.272+0800","caller":"core/init.go:43","msg":"缓存系统初始化成功","type":"redis"}
+{"level":"info","time":"2025-05-12T23:57:45.272+0800","caller":"runtime/asm_arm64.s:1223","msg":"server is start....[http://localhost:8080]"}
+{"level":"info","time":"2025-05-12T23:57:55.767+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.00000587}
+{"level":"info","time":"2025-05-12T23:59:10.920+0800","caller":"core/init.go:38","msg":"db connector successfully"}
+{"level":"info","time":"2025-05-12T23:59:10.920+0800","caller":"database/mysql.go:86","msg":"开始执行数据库迁移..."}
+{"level":"info","time":"2025-05-12T23:59:11.332+0800","caller":"database/mysql.go:86","msg":"数据库迁移完成"}
+{"level":"info","time":"2025-05-12T23:59:11.332+0800","caller":"database/migration.go:25","msg":"检查并初始化角色..."}
+{"level":"info","time":"2025-05-12T23:59:11.336+0800","caller":"database/migration.go:28","msg":"检查并初始化管理员账户..."}
+{"level":"info","time":"2025-05-12T23:59:11.354+0800","caller":"cache/cache.go:35","msg":"Redis缓存连接成功","host":"10.0.0.107","port":6379,"db":0}
+{"level":"info","time":"2025-05-12T23:59:11.354+0800","caller":"core/init.go:43","msg":"缓存系统初始化成功","type":"redis"}
+{"level":"info","time":"2025-05-12T23:59:11.354+0800","caller":"runtime/asm_arm64.s:1223","msg":"server is start....[http://localhost:8080]"}
+{"level":"info","time":"2025-05-12T23:59:26.037+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000004289}
+{"level":"info","time":"2025-05-13T00:19:44.049+0800","caller":"core/init.go:38","msg":"db connector successfully"}
+{"level":"info","time":"2025-05-13T00:19:44.050+0800","caller":"database/mysql.go:86","msg":"开始执行数据库迁移..."}
+{"level":"info","time":"2025-05-13T00:19:44.470+0800","caller":"database/mysql.go:86","msg":"数据库迁移完成"}
+{"level":"info","time":"2025-05-13T00:19:44.470+0800","caller":"database/migration.go:25","msg":"检查并初始化角色..."}
+{"level":"info","time":"2025-05-13T00:19:44.476+0800","caller":"database/migration.go:28","msg":"检查并初始化管理员账户..."}
+{"level":"info","time":"2025-05-13T00:19:44.497+0800","caller":"cache/cache.go:35","msg":"Redis缓存连接成功","host":"10.0.0.107","port":6379,"db":0}
+{"level":"info","time":"2025-05-13T00:19:44.497+0800","caller":"core/init.go:43","msg":"缓存系统初始化成功","type":"redis"}
+{"level":"info","time":"2025-05-13T00:19:44.498+0800","caller":"runtime/asm_arm64.s:1223","msg":"server is start....[http://localhost:8080]"}
+{"level":"info","time":"2025-05-13T00:19:51.520+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000041}
+{"level":"info","time":"2025-05-13T00:19:52.794+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000036}
+{"level":"info","time":"2025-05-13T08:53:27.518+0800","caller":"core/init.go:98","msg":"server close..."}
+{"level":"error","time":"2025-05-13T08:53:27.518+0800","caller":"core/init.go:114","msg":"close connector fail","error":"bad connection"}
+{"level":"info","time":"2025-05-13T08:53:27.519+0800","caller":"core/init.go:98","msg":"server closed"}
+{"level":"info","time":"2025-05-13T08:53:31.975+0800","caller":"core/init.go:38","msg":"db connector successfully"}
+{"level":"info","time":"2025-05-13T08:53:31.975+0800","caller":"database/mysql.go:86","msg":"开始执行数据库迁移..."}
+{"level":"info","time":"2025-05-13T08:53:32.413+0800","caller":"database/mysql.go:86","msg":"数据库迁移完成"}
+{"level":"info","time":"2025-05-13T08:53:32.413+0800","caller":"database/migration.go:25","msg":"检查并初始化角色..."}
+{"level":"info","time":"2025-05-13T08:53:32.416+0800","caller":"database/migration.go:28","msg":"检查并初始化管理员账户..."}
+{"level":"info","time":"2025-05-13T08:53:32.440+0800","caller":"cache/cache.go:31","msg":"Redis缓存连接成功","host":"10.0.0.107","port":6379,"db":0}
+{"level":"info","time":"2025-05-13T08:53:32.441+0800","caller":"core/init.go:43","msg":"缓存系统初始化成功","type":"redis"}
+{"level":"info","time":"2025-05-13T08:53:32.443+0800","caller":"runtime/asm_arm64.s:1223","msg":"server is start....[http://localhost:8080]"}
+{"level":"info","time":"2025-05-13T08:53:40.298+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000032}
+{"level":"info","time":"2025-05-13T08:53:41.437+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000031}
+{"level":"info","time":"2025-05-13T08:53:42.336+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000034}
+{"level":"info","time":"2025-05-13T08:53:44.575+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users/1","耗时":0.00000003}
+{"level":"info","time":"2025-05-13T08:53:45.765+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users/1","耗时":0.000000029}
+{"level":"info","time":"2025-05-13T08:53:48.091+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000034}
+{"level":"info","time":"2025-05-13T08:53:49.132+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000031}
+{"level":"info","time":"2025-05-13T08:53:50.017+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.00000003}
+{"level":"info","time":"2025-05-13T08:55:04.115+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":401,"方法":"DELETE","路径":"/api/v1/users/12","耗时":0}
+{"level":"info","time":"2025-05-13T08:55:24.908+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"DELETE","路径":"/api/v1/users/12","耗时":0.000000067}
+{"level":"info","time":"2025-05-13T08:55:58.544+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users/12","耗时":0.000000019}
+{"level":"info","time":"2025-05-13T08:55:59.988+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users/12","耗时":0.000000024}
+{"level":"info","time":"2025-05-13T09:01:28.584+0800","caller":"core/init.go:98","msg":"server close..."}
+{"level":"info","time":"2025-05-13T09:01:28.585+0800","caller":"core/init.go:114","msg":"db connector is close"}
+{"level":"info","time":"2025-05-13T09:01:28.585+0800","caller":"core/init.go:98","msg":"server closed"}
+{"level":"info","time":"2025-05-13T09:41:29.688+0800","caller":"core/init.go:38","msg":"db connector successfully"}
+{"level":"info","time":"2025-05-13T09:41:29.690+0800","caller":"database/mysql.go:86","msg":"开始执行数据库迁移..."}
+{"level":"info","time":"2025-05-13T09:41:30.120+0800","caller":"database/mysql.go:86","msg":"数据库迁移完成"}
+{"level":"info","time":"2025-05-13T09:41:30.120+0800","caller":"database/migration.go:25","msg":"检查并初始化角色..."}
+{"level":"info","time":"2025-05-13T09:41:30.123+0800","caller":"database/migration.go:28","msg":"检查并初始化管理员账户..."}
+{"level":"info","time":"2025-05-13T09:41:30.147+0800","caller":"core/init.go:43","msg":"Redis缓存连接成功","host":"10.0.0.107","port":6379,"db":0}
+{"level":"info","time":"2025-05-13T09:41:30.147+0800","caller":"runtime/asm_arm64.s:1223","msg":"server is start....[http://localhost:8080]"}
+{"level":"info","time":"2025-05-13T09:41:40.970+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000039}
+{"level":"info","time":"2025-05-13T09:45:28.934+0800","caller":"core/init.go:98","msg":"server close..."}
+{"level":"info","time":"2025-05-13T09:45:28.936+0800","caller":"core/init.go:114","msg":"db connector is close"}
+{"level":"info","time":"2025-05-13T09:45:28.936+0800","caller":"core/init.go:98","msg":"server closed"}
+{"level":"info","time":"2025-05-13T09:45:59.127+0800","caller":"core/init.go:38","msg":"db connector successfully"}
+{"level":"info","time":"2025-05-13T09:45:59.127+0800","caller":"database/mysql.go:86","msg":"开始执行数据库迁移..."}
+{"level":"info","time":"2025-05-13T09:45:59.613+0800","caller":"database/mysql.go:86","msg":"数据库迁移完成"}
+{"level":"info","time":"2025-05-13T09:45:59.613+0800","caller":"database/migration.go:25","msg":"检查并初始化角色..."}
+{"level":"info","time":"2025-05-13T09:45:59.616+0800","caller":"database/migration.go:28","msg":"检查并初始化管理员账户..."}
+{"level":"info","time":"2025-05-13T09:45:59.641+0800","caller":"core/init.go:43","msg":"Redis缓存连接成功","host":"10.0.0.107","port":6379,"db":0}
+{"level":"info","time":"2025-05-13T09:45:59.641+0800","caller":"runtime/asm_arm64.s:1223","msg":"server is start....[http://localhost:8080]"}
+{"level":"info","time":"2025-05-13T09:46:08.883+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000038}
+{"level":"info","time":"2025-05-13T10:13:42.436+0800","caller":"core/init.go:98","msg":"server close..."}
+{"level":"info","time":"2025-05-13T10:13:42.436+0800","caller":"core/init.go:114","msg":"db connector is close"}
+{"level":"info","time":"2025-05-13T10:13:42.437+0800","caller":"core/init.go:98","msg":"server closed"}
+{"level":"info","time":"2025-05-13T10:13:56.520+0800","caller":"core/init.go:38","msg":"db connector successfully"}
+{"level":"info","time":"2025-05-13T10:13:56.520+0800","caller":"database/mysql.go:86","msg":"开始执行数据库迁移..."}
+{"level":"info","time":"2025-05-13T10:13:56.925+0800","caller":"database/mysql.go:86","msg":"数据库迁移完成"}
+{"level":"info","time":"2025-05-13T10:13:56.926+0800","caller":"database/migration.go:25","msg":"检查并初始化角色..."}
+{"level":"info","time":"2025-05-13T10:13:56.928+0800","caller":"database/migration.go:28","msg":"检查并初始化管理员账户..."}
+{"level":"info","time":"2025-05-13T10:13:56.948+0800","caller":"core/init.go:43","msg":"Redis缓存连接成功","host":"10.0.0.107","port":6379,"db":0}
+{"level":"info","time":"2025-05-13T10:13:56.948+0800","caller":"runtime/asm_arm64.s:1223","msg":"server is start....[http://localhost:8080]"}
+{"level":"info","time":"2025-05-13T10:14:04.693+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"GET","路径":"/api/v1/users","耗时":0.000000044}
+{"level":"info","time":"2025-05-13T10:16:17.147+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"POST","路径":"/api/v1/auth/login","耗时":0.000000115}
+{"level":"info","time":"2025-05-13T10:16:19.710+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"POST","路径":"/api/v1/auth/login","耗时":0.000000119}
+{"level":"info","time":"2025-05-13T10:16:37.429+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":403,"方法":"DELETE","路径":"/api/v1/users/12","耗时":0.000000012}
+{"level":"info","time":"2025-05-13T10:16:43.379+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":403,"方法":"DELETE","路径":"/api/v1/users/12","耗时":0.000000018}
+{"level":"info","time":"2025-05-13T10:16:44.593+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":403,"方法":"DELETE","路径":"/api/v1/users/12","耗时":0.000000019}
+{"level":"info","time":"2025-05-13T10:16:45.586+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":403,"方法":"DELETE","路径":"/api/v1/users/12","耗时":0.000000015}
+{"level":"info","time":"2025-05-13T10:16:46.594+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":403,"方法":"DELETE","路径":"/api/v1/users/12","耗时":0.000000016}
+{"level":"info","time":"2025-05-13T10:16:48.011+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":403,"方法":"DELETE","路径":"/api/v1/users/12","耗时":0.000000018}
+{"level":"info","time":"2025-05-13T10:16:49.103+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":403,"方法":"DELETE","路径":"/api/v1/users/12","耗时":0.000000015}
+{"level":"info","time":"2025-05-13T10:16:53.650+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":403,"方法":"DELETE","路径":"/api/v1/users/11","耗时":0.000000014}
+{"level":"info","time":"2025-05-13T10:16:54.655+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":403,"方法":"DELETE","路径":"/api/v1/users/11","耗时":0.000000016}
+{"level":"info","time":"2025-05-13T10:16:55.294+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":403,"方法":"DELETE","路径":"/api/v1/users/11","耗时":0.000000019}
+{"level":"info","time":"2025-05-13T10:16:55.683+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":403,"方法":"DELETE","路径":"/api/v1/users/11","耗时":0.000000022}
+{"level":"info","time":"2025-05-13T10:17:17.513+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"POST","路径":"/api/v1/auth/login","耗时":0.000000137}
+{"level":"info","time":"2025-05-13T10:17:35.547+0800","caller":"gin@v1.10.0/context.go:185","msg":"请求","状态":200,"方法":"DELETE","路径":"/api/v1/users/11","耗时":0.000000066}
+{"level":"info","time":"2025-05-13T11:29:04.141+0800","caller":"core/init.go:38","msg":"db connector successfully"}
+{"level":"info","time":"2025-05-13T11:29:04.142+0800","caller":"database/mysql.go:86","msg":"开始执行数据库迁移..."}
+{"level":"info","time":"2025-05-13T11:29:04.602+0800","caller":"database/mysql.go:86","msg":"数据库迁移完成"}
+{"level":"info","time":"2025-05-13T11:29:04.602+0800","caller":"database/migration.go:25","msg":"检查并初始化角色..."}
+{"level":"info","time":"2025-05-13T11:29:04.605+0800","caller":"database/migration.go:28","msg":"检查并初始化管理员账户..."}
+{"level":"info","time":"2025-05-13T11:29:04.628+0800","caller":"core/init.go:43","msg":"Redis connection successfully","host":"10.0.0.107","port":6379,"db":0}
+{"level":"info","time":"2025-05-13T11:29:04.629+0800","caller":"runtime/asm_arm64.s:1223","msg":"server is start....[http://localhost:8080]"}
+{"level":"info","time":"2025-05-13T11:31:38.234+0800","caller":"gin@v1.10.0/context.go:185","msg":"HTTP request","status":200,"method":"GET","uri":"/api/v1/users","total time":0.000019969}
+{"level":"info","time":"2025-05-13T11:31:48.572+0800","caller":"gin@v1.10.0/context.go:185","msg":"HTTP request","status":200,"method":"GET","uri":"/api/v1/users","total time":0.000005173}
+{"level":"info","time":"2025-05-13T11:34:31.321+0800","caller":"gin@v1.10.0/context.go:185","msg":"HTTP request","status":200,"method":"GET","uri":"/api/v1/auth/user","total time":0.000000017}
+{"level":"info","time":"2025-05-13T11:36:20.924+0800","caller":"gin@v1.10.0/context.go:185","msg":"HTTP request","status":200,"method":"GET","uri":"/api/v1/auth/user","total time":0.00007797}

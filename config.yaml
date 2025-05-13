@@ -1,0 +1,55 @@
+server:
+  host: "0.0.0.0"
+  port: 8080
+  mode: debug
+  readTimeout: 10 #(s)
+  writeTimeout: 10 #(s)
+  disableDebug: true
+  enableRequestLog: true
+database:
+  type: mysql
+  host: 10.0.0.106
+  port: 3306
+  username: root
+  password: 123456
+  database: go-gin
+  maxIdleConns: 10
+  maxOpenConns: 100
+  connMaxLifetime: 3600 #(s)
+  logLevel: info
+  slowThreshold: 200 #(ms)
+  disableSqlLog: false
+  autoMigrate: true
+  initAdmin: true
+jwt:
+  secret: "19831212132"
+  accessTokenExp: 15 #(m)
+  refreshTokenExp: 10080 #(m)
+  tokenIssuer: "go-bpf"
+  refreshTokenSize: 64
+cache:
+  type: "redis"
+  host: "10.0.0.107"
+  port: 6379
+  password: ""
+  db: 0
+  poolSize: 10
+  minIdleConns: 5
+  maxRetries: 3
+  dialTimeout: 5 #(s)
+  readTimeout: 3 #(s)
+  writeTimeout: 3 #(s)
+  defaultTTL: 3600 #(s)
+  prefix: "go-bpf:"
+  enableLog: true
+log:
+  level: info #debug/info/warn/error/panic/fatal
+  filename: "./logs/go-bpf.log"
+  maxSize: 10 #(MB)
+  maxBackups: 10
+  maxAge: 30 #(day)
+  compress: true
+  enableFile: true
+  format: "console"
+  colorOutput: true
+  enableConsole: true
